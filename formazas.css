@@ -22,9 +22,12 @@ h1{
     font-size: 35px;
 }
 a{
-    padding:225px;
+    margin:225px;
     color:saddlebrown;
     text-decoration: none;
+}
+a:hover{
+    color: gold;
 }
 article{
     max-width: 80%;
@@ -32,4 +35,16 @@ article{
 }
 .fogalomtar{
     border-left: 5px solid sandybrown;
+}
+img{
+    max-width: 80%;
+    display:grid
+}
+@media screen and (max-width: 600px) {
+
+    img {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
 }
