@@ -16,6 +16,7 @@ p{
     margin-left:30px;
     font-size: 20px;
     margin-top: 0px;
+    text-align: justify;
 }
 h1{
     text-align: center;
@@ -37,8 +38,11 @@ article{
     border-left: 5px solid sandybrown;
 }
 img{
-    max-width: 80%;
-    display:grid
+    max-width: 30%;
+}
+.bekezdesek{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 @media screen and (max-width: 600px) {
 
