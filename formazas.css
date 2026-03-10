@@ -1,0 +1,32 @@
+main{box-sizing: border-box;}
+body{
+    background-color: bisque;
+    
+}
+h2{background-color: antiquewhite;
+padding: 20px 25px 0px 0px;
+font-style: italic;
+font-size: 25px;
+border: 3px solid sandybrown;
+border-radius: 2%;}
+p{
+    font-family: Palatino;
+    margin-left:30px;
+    font-size: 20px
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+a{
+    padding:225px;
+    color:saddlebrown;
+    text-decoration: none;
+}
+article{
+    max-width: 80%;
+    margin: auto
+}
+.fogalomtar{
+    border-left: 5px solid sandybrown;
+}
