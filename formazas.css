@@ -1,4 +1,4 @@
-main{box-sizing: border-box;}
+*{box-sizing: border-box;}
 body{
     background-color: bisque;
     
@@ -8,20 +8,26 @@ padding: 20px 25px 0px 0px;
 font-style: italic;
 font-size: 25px;
 border: 3px solid sandybrown;
-border-radius: 2%;}
+border-radius: 2%;
+margin-top:15px;
+margin-bottom: 5px;}
 p{
     font-family: Palatino;
     margin-left:30px;
-    font-size: 20px
+    font-size: 20px;
+    margin-top: 0px;
 }
 h1{
     text-align: center;
     font-size: 35px;
 }
 a{
-    padding:225px;
+    margin:225px;
     color:saddlebrown;
     text-decoration: none;
+}
+a:hover{
+    color: gold;
 }
 article{
     max-width: 80%;
@@ -29,4 +35,16 @@ article{
 }
 .fogalomtar{
     border-left: 5px solid sandybrown;
+}
+img{
+    max-width: 80%;
+    display:grid
+}
+@media screen and (max-width: 600px) {
+
+    img {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
 }
