@@ -1,0 +1,26 @@
+*{box-sizing: border-box;}
+body{
+    background-color: bisque;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+a{
+    padding:225px;
+    color:saddlebrown;
+    text-decoration: none;
+}
+article{
+    max-width: 80%;
+    margin: auto;
+}
+.elrendezes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img{
+    max-width: 25%;
+}
