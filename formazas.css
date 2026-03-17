@@ -20,7 +20,7 @@ p {
   margin-left: 30px;
   font-size: 20px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 25px;
   text-align: justify;
 }
 h1 {
@@ -56,8 +56,11 @@ img {
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
 }
+footer {
+    margin-top: 200px;
+}
 @media screen and (max-width: 600px) {
-  img {
+   .fogalmotar {
     width: 100%;
     grid-template-columns: 1fr;
   }
