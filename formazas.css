@@ -36,7 +36,7 @@ a:hover {
 }
 
 img {
-  max-width: 50%;
+  max-width: 80%;
 }
 .bekezdesek {
   display: grid;
@@ -46,6 +46,9 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 5%;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5%;
 }
 footer {
   margin-top: 200px;
