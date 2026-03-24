@@ -31,12 +31,9 @@ h1 {
 a:hover {
   color: gold;
 }
-article {
-  max-width: 80%;
-  margin: auto;
-}
+
 img {
-  max-width: 50%;
+  max-width: 80%;
 }
 .bekezdesek {
   display: grid;
@@ -44,7 +41,7 @@ img {
 }
 .fooldaldivjei {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     column-gap: 5%;
 }
 footer {
