@@ -36,7 +36,7 @@ article {
   margin: auto;
 }
 img {
-  max-width: 30%;
+  max-width: 50%;
 }
 .bekezdesek {
   display: grid;
@@ -49,4 +49,10 @@ img {
 }
 footer {
     margin-top: 200px;
+}
+@media screen and (max-width: 600px) {
+    .fooldaldivjei{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
