@@ -27,22 +27,13 @@ h1 {
   text-align: center;
   font-size: 35px;
 }
-a {
- 
-  color: saddlebrown;
-  text-decoration: none;
-}
+
 a:hover {
   color: gold;
 }
 article {
   max-width: 80%;
   margin: auto;
-}
-.fogalomtar {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 5%;
 }
 img {
   max-width: 30%;
