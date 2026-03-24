@@ -1,5 +1,16 @@
-a {
+a{
   color: saddlebrown;
   text-decoration: none;
+}
+nav{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 10px;
+text-align: center;
+}
+@media screen and (max-width: 600px) {
+  nav{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;}
+grid-template-columns: 1fr;
+  }
+}

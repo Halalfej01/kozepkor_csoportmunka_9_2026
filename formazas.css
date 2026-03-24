@@ -50,15 +50,3 @@ img {
 footer {
     margin-top: 200px;
 }
-
-@media screen and (max-width: 600px) {
-   .fogalomtar {
-    width: 100%;
-    grid-template-columns: 1fr;
-  }
-  .menu{
-display: grid;
-grid-template-columns: 1fr;
-margin: 0px 0px 0px 0px
-  }
-}
