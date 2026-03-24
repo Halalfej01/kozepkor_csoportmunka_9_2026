@@ -50,3 +50,9 @@ img {
 footer {
     margin-top: 200px;
 }
+@media screen and (max-width: 600px) {
+    .fooldaldivjei{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
