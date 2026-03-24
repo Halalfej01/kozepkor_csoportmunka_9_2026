@@ -28,7 +28,7 @@ h1 {
   font-size: 35px;
 }
 a {
-  margin: 225px;
+ 
   color: saddlebrown;
   text-decoration: none;
 }
@@ -59,9 +59,15 @@ img {
 footer {
     margin-top: 200px;
 }
+
 @media screen and (max-width: 600px) {
-   .fogalmotar {
+   .fogalomtar {
     width: 100%;
     grid-template-columns: 1fr;
+  }
+  .menu{
+display: grid;
+grid-template-columns: 1fr;
+margin: 0px 0px 0px 0px
   }
 }
